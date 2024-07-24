@@ -4,7 +4,7 @@ Context, description of the dataset, and analysis are described in the paper [Mo
 
 To use the Random Forest model presented in the paper, Python is necessary as well as the following packages:
 
-`pip install numpy panas scikit-learn xlrd`
+`pip install numpy pandas scikit-learn xlrd`
 
 ## Usage
 
