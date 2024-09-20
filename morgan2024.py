@@ -31,7 +31,7 @@ class RF_Morgan2024:
         train_X, train_y = train_df.drop(['experiment', 'mode', 'Diameter', 'contrast', 'Throughput', 'chars_earth_unique', 'detections_earth_all', 'detections_earth_unique', 'ensemble_size'], axis = 1), train_df.chars_earth_unique
         
         # Define and fit the RF
-        self.model = sklearn.ensemble.RandomForestRegressor(100, max_depth=7, random_state=self.seed)
+        self.model = sklearn.ensemble.RandomForestRegressor(800, max_depth=10, random_state=self.seed)
         self.model.fit(train_X.values, train_y.values)
         
     def sim(self, diameter, logc, tput, iwa):
