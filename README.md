@@ -30,7 +30,7 @@ Substitute the 'diameter' with the telescope diameter value, the 'log(contrast)'
 
 `In[3]: rf.sim(6, -10, 0.1, 20)`
 
-`Out[4]: 13.196637906368103`
+`Out[4]: 13.29610730168751`
 
 ## Authors
 * Rhonda Morgan (Jet Propulsion Laboratory, California Institute of Technology)
